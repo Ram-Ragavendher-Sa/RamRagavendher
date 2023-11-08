@@ -2,7 +2,10 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div><center>UserName</center></div>
+    <div color='Red' style={{backgroundColor:"Seagreen"}}>
+        <h1>Ram Ragavendher Sa</h1>
+        <hr />
+    </div>
   )
 }
 
