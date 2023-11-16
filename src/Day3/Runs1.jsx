@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Button from '../Day2/Button';
 const Runs1 = () => {
     const [curun,setrun]=useState(0);
     const [curwi,setwi]=useState(0);
@@ -9,7 +10,7 @@ const Runs1 = () => {
         <br/>
         <h1>CurrentWickets {curwi}</h1>
         <br/>
-        <button className="bg-blue-500-px-10" disabled={curwi >= 10} onClick={()=>
+        <button className="bg-blue-500-px-10." disabled={curwi >= 10} onClick={()=>
         {
             setrun(curun+1)
         }}>One Run</button>

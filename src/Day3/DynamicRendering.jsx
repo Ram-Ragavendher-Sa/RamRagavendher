@@ -10,7 +10,8 @@ const DynamicRendering = () => {
     <>
     <h1>Clicked Frameword{selectedFramework}</h1>
     </>
-  )
+  ) 7
+  
 }
 
 export default DynamicRendering
